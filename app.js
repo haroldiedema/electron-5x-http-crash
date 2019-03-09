@@ -34,3 +34,9 @@ function doGetRequest(url)
     console.log('And now we wait for a few seconds...');
 
 })();
+
+
+// Commenting out the async-function above and just running this will also crash the app after a few seconds.
+// doGetRequest('https://api.chucknorris.io/jokes/random').then((data) => {
+//     console.log('Now we wait...');
+// });
